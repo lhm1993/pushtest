@@ -112,3 +112,8 @@ class UserRegisterView(View):
         form_obj = forms.RegFrom()
 
         return render(request, "register.html", {"form_obj": form_obj})
+
+
+"""
+this is a test
+"""
